@@ -6,50 +6,46 @@ import 'ag-grid-enterprise';
 
 import axios from 'axios'
 
-class RegionalSummary extends Component {
+class NotificationSummary extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
           columnDefs: [
-            { headerName: "State/UT", field: "loc", sortable: true, filter: true},
-            { headerName: "Confirmed", field: "totalConfirmed", sortable: true, filter: true },
-            { headerName: "Discharged", field: "discharged", sortable: true, filter: true },
-            { headerName: "Deceased", field: "deaths", sortable: true, filter: true }, 
-            { headerName: "regional", field: "regional", sortable: true, filter: true }
-        ],
+            { headerName: "Title", field: "title", sortable: true, filter: true},
+            { headerName: "TLink", field: "link", sortable: true, filter: true}],
             rowData: []
         }
     }
     componentDidMount ()  {
-       axios.get('https://api.rootnet.in/covid19-in/stats/latest')
+       axios.get('https://api.rootnet.in/covid19-in/notifications')
         .then(response => {
         this.setState({
-            rowData: response.data.data.regional  })
+            rowData: response.data.data.notifications
         })
-        .catch(error => {
-            console.error(error)
-        })   
+    })
+    .catch(error => {
+        console.error(error)
+    })
+        
     }
+
     render() {
         return (
-            <div>
-            <div>regionalsummary</div>
-            
             <div
                 className="ag-theme-alpine"
                 style={{
                 height: '550px',
                 width: '800px',
-                align: 'left' }}>
+                align: 'left' }}
+            >
                 <AgGridReact
                 columnDefs={this.state.columnDefs}
                 rowData={this.state.rowData}
                 >
                 </AgGridReact>
-             </div>
             </div>
         )
     }
 }
-export default RegionalSummary
+export default NotificationSummary

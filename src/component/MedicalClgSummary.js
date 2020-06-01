@@ -6,50 +6,50 @@ import 'ag-grid-enterprise';
 
 import axios from 'axios'
 
-class RegionalSummary extends Component {
+class MedicalClgSummary extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
           columnDefs: [
-            { headerName: "State/UT", field: "loc", sortable: true, filter: true},
-            { headerName: "Confirmed", field: "totalConfirmed", sortable: true, filter: true },
-            { headerName: "Discharged", field: "discharged", sortable: true, filter: true },
-            { headerName: "Deceased", field: "deaths", sortable: true, filter: true }, 
-            { headerName: "regional", field: "regional", sortable: true, filter: true }
-        ],
+            { headerName: "State/UT", field: "state", sortable: true, filter: true},
+            { headerName: "Name", field: "name", sortable: true, filter: true},
+            { headerName: "City", field: "city", sortable: true, filter: true},
+            { headerName: "Ownership", field: "ownership", sortable: true, filter: true},
+            { headerName: "Admission Capacity", field: "admissionCapacity", sortable: true, filter: true},
+            { headerName: "Hospital sBeds", field: "hospitalBeds", sortable: true, filter: true}],
             rowData: []
         }
     }
     componentDidMount ()  {
-       axios.get('https://api.rootnet.in/covid19-in/stats/latest')
+       axios.get('https://api.rootnet.in/covid19-in/hospitals/medical-colleges')
         .then(response => {
         this.setState({
-            rowData: response.data.data.regional  })
+            rowData: response.data.data.contacts.regional
         })
-        .catch(error => {
-            console.error(error)
-        })   
+    })
+    .catch(error => {
+        console.error(error)
+    })
+        
     }
+
     render() {
         return (
-            <div>
-            <div>regionalsummary</div>
-            
             <div
                 className="ag-theme-alpine"
                 style={{
                 height: '550px',
                 width: '800px',
-                align: 'left' }}>
+                align: 'left' }}
+            >
                 <AgGridReact
                 columnDefs={this.state.columnDefs}
                 rowData={this.state.rowData}
                 >
                 </AgGridReact>
-             </div>
             </div>
         )
     }
 }
-export default RegionalSummary
+export default MedicalClgSummary
