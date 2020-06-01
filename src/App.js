@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import StateSummary from './component/StateSummary';
 
 function App() {
   return (
     <div className="App">
-     Hello Gaurav Gupta 2
+     
+      <StateSummary/>
     </div>
   );
 }
