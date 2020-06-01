@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import StateSummary from './component/StateSummary';
+import RgionalSummary from './component/RgionalSummary';
 
 function App() {
   return (
     <div className="App">
      
-      <StateSummary/>
+      <RgionalSummary/>
     </div>
   );
 }
