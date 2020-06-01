@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/covid19-portal/static/css/main.5f361e03.chunk.css",
+    "main.js": "/covid19-portal/static/js/main.4256f472.chunk.js",
+    "main.js.map": "/covid19-portal/static/js/main.4256f472.chunk.js.map",
+    "runtime-main.js": "/covid19-portal/static/js/runtime-main.b9be2b71.js",
+    "runtime-main.js.map": "/covid19-portal/static/js/runtime-main.b9be2b71.js.map",
+    "static/js/2.3d1b1a9e.chunk.js": "/covid19-portal/static/js/2.3d1b1a9e.chunk.js",
+    "static/js/2.3d1b1a9e.chunk.js.map": "/covid19-portal/static/js/2.3d1b1a9e.chunk.js.map",
+    "index.html": "/covid19-portal/index.html",
+    "precache-manifest.b42d531e176a4a0ac36c7506a704ef3b.js": "/covid19-portal/precache-manifest.b42d531e176a4a0ac36c7506a704ef3b.js",
+    "service-worker.js": "/covid19-portal/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/covid19-portal/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3d1b1a9e.chunk.js.LICENSE.txt": "/covid19-portal/static/js/2.3d1b1a9e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/covid19-portal/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9be2b71.js",
+    "static/js/2.3d1b1a9e.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.4256f472.chunk.js"
+  ]
+}
