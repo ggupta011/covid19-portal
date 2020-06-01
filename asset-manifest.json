@@ -4,8 +4,8 @@
     "static/js/0.f18d910a.chunk.js": "/covid19-portal/static/js/0.f18d910a.chunk.js",
     "static/js/0.f18d910a.chunk.js.map": "/covid19-portal/static/js/0.f18d910a.chunk.js.map",
     "main.css": "/covid19-portal/static/css/main.5f361e03.chunk.css",
-    "main.js": "/covid19-portal/static/js/main.f0425e0c.chunk.js",
-    "main.js.map": "/covid19-portal/static/js/main.f0425e0c.chunk.js.map",
+    "main.js": "/covid19-portal/static/js/main.c7a40e06.chunk.js",
+    "main.js.map": "/covid19-portal/static/js/main.c7a40e06.chunk.js.map",
     "runtime-main.js": "/covid19-portal/static/js/runtime-main.70bd73b3.js",
     "runtime-main.js.map": "/covid19-portal/static/js/runtime-main.70bd73b3.js.map",
     "static/js/3.d8114a51.chunk.js": "/covid19-portal/static/js/3.d8114a51.chunk.js",
@@ -27,7 +27,7 @@
     "static/js/11.b26b2144.chunk.js": "/covid19-portal/static/js/11.b26b2144.chunk.js",
     "static/js/11.b26b2144.chunk.js.map": "/covid19-portal/static/js/11.b26b2144.chunk.js.map",
     "index.html": "/covid19-portal/index.html",
-    "precache-manifest.374f15ad8c88c3da42aa2ced975c28cc.js": "/covid19-portal/precache-manifest.374f15ad8c88c3da42aa2ced975c28cc.js",
+    "precache-manifest.3f629ed09570ec2322d35f70ee608af8.js": "/covid19-portal/precache-manifest.3f629ed09570ec2322d35f70ee608af8.js",
     "service-worker.js": "/covid19-portal/service-worker.js",
     "static/css/0.d115584f.chunk.css.map": "/covid19-portal/static/css/0.d115584f.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/covid19-portal/static/css/main.5f361e03.chunk.css.map",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.70bd73b3.js",
     "static/js/3.d8114a51.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.f0425e0c.chunk.js"
+    "static/js/main.c7a40e06.chunk.js"
   ]
 }

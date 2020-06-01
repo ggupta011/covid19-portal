@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5e1a249cf4d34b62311c18ca4ded082",
+    "revision": "c35e5c41e4ece07325152472450401b8",
     "url": "/covid19-portal/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid19-portal/static/css/0.d115584f.chunk.css"
   },
   {
-    "revision": "d8748999534861c104f4",
+    "revision": "f10eedfc7338cc66ded8",
     "url": "/covid19-portal/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid19-portal/static/js/9.49767142.chunk.js"
   },
   {
-    "revision": "d8748999534861c104f4",
-    "url": "/covid19-portal/static/js/main.f0425e0c.chunk.js"
+    "revision": "f10eedfc7338cc66ded8",
+    "url": "/covid19-portal/static/js/main.c7a40e06.chunk.js"
   },
   {
     "revision": "c05aed1a404bbc215574",
