@@ -6,7 +6,7 @@ import 'ag-grid-enterprise';
 
 import axios from 'axios'
 
-class RgionalSummary extends Component {
+class RegionalSummary extends Component {
 
     constructor(props) {
         super(props);
@@ -47,13 +47,10 @@ class RgionalSummary extends Component {
                 <AgGridReact
                 columnDefs={this.state.columnDefs}
                 rowData={this.state.rowData}
-                style={{
-                    align: 'left'}}
                 >
                 </AgGridReact>
             </div>
         )
     }
 }
-
-export default RgionalSummary
+export default RegionalSummary

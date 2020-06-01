@@ -1,13 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import RgionalSummary from './component/RgionalSummary';
+import RegionalSummary from './component/RegionalSummary';
+import DailySummary from './component/DailySummary';
 
 function App() {
   return (
     <div className="App">
      
-      <RgionalSummary/>
+      <RegionalSummary/>
+      <DailySummary />
     </div>
   );
 }
